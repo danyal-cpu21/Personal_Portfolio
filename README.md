@@ -1,5 +1,8 @@
-# Personal_Portfolio
+# Danyal Iqbal | Portfolio Website
 
+A fast, accessible, single-page portfolio for **Danyal Iqbal**, a Systems and Computing Engineering student at the University of Guelph. It presents my experience, projects, technical skills and education in a clean two-column layout, and is built to be read well by both people and applicant tracking systems (ATS).
+
+**Live site:** `https://danyal-cpu21.github.io/<repository-name>` *(replace with your deployed URL; if the repository is named `danyal-cpu21.github.io`, the address is `https://danyal-cpu21.github.io`)*
 
 ---
 
@@ -54,6 +57,7 @@ This portfolio is a single self-contained `index.html` file. It has no build ste
    - *AI Message Clarity Checker:* a Python NLP tool that flags vague language, unclear ownership and imprecise deadlines.
    - *Autonomous Launching Wheel Chair:* an Arduino vehicle with a custom motor controller and servo-powered launcher.
    - *Campus Event Booking System:* a Java application with a waitlist engine, CSV persistence and a JUnit test suite.
+   - *Room Light Heat Map:* a JavaScript and HTML5 Canvas web app that maps which parts of a room are too dark or too bright and suggests priced lighting ideas. [Live demo](https://danyal-cpu21.github.io/Room-light-heat-map/)
 4. **Technical Skills.** Languages, hardware, software and concepts.
 5. **Education.** B.Eng. in Systems and Computing Engineering, University of Guelph (expected June 2029).
 6. **Contact.** Email address and a link to GitHub.
@@ -62,11 +66,12 @@ This portfolio is a single self-contained `index.html` file. It has no build ste
 
 ```
 .
-├── index.html   # The entire website (HTML, CSS and JavaScript)
-└── README.md    # This file
+├── index.html               # The entire website (HTML, CSS and JavaScript)
+├── room-light-heat-map.jpg  # Screenshot used in the Room Light Heat Map project card
+└── README.md                # This file
 ```
 
-GitHub Pages looks for `index.html` in the root of the branch it serves. The file must be named exactly `index.html` (lowercase) and must not be inside a subfolder.
+Keep `room-light-heat-map.jpg` in the same folder as `index.html`, or the project screenshot will not load. GitHub Pages looks for `index.html` in the root of the branch it serves. The file must be named exactly `index.html` (lowercase) and must not be inside a subfolder.
 
 ## Getting Started
 
@@ -157,7 +162,7 @@ To point a project card at its own repository, change the `href` of that card's 
 
 - **Plain, selectable text.** All content is real HTML text, with no text embedded in images.
 - **Standard headings.** Sections use recognizable names (Experience, Projects, Technical Skills, Education) and a logical `h1` to `h3` hierarchy.
-- **Keyword-rich content.** Languages, tools and technologies from the resume (Java, C++, Python, C, VHDL, Arduino, NLP, JUnit and others) appear in readable text.
+- **Keyword-rich content.** Languages, tools and technologies from the resume (Java, C++, Python, C, VHDL, JavaScript, Arduino, NLP, JUnit and others) appear in readable text.
 - **Structured data.** A JSON-LD `Person` block gives search engines and parsers my name, role, school, skills and GitHub profile.
 - **Metadata.** A descriptive title and meta description are included for search results and link previews.
 - **Print stylesheet.** Printing or saving to PDF produces a clean, single-column version of the page.
@@ -185,8 +190,14 @@ The site works in current versions of Chrome, Edge, Firefox and Safari on deskto
 | The site returns a 404 | Pages is not enabled or points at the wrong branch or folder. Recheck **Settings → Pages**. |
 | Changes do not appear | Wait a couple of minutes for the deployment to finish, then hard refresh. |
 | "Latest on GitHub" does not appear | The account has no public non-fork repositories, the GitHub API rate limit was reached, or the page is opened from a host that blocks outside requests. |
+| Project screenshot is broken | `room-light-heat-map.jpg` is missing or is not in the same folder as `index.html`. Upload it to the repo root. |
 | Fonts look different | The Google Fonts request was blocked. The page falls back to system fonts, which is expected. |
 
+## Contact
 
+- **GitHub:** [github.com/danyal-cpu21](https://github.com/danyal-cpu21)
+- **Email:** Danyal.iq@outlook.com
+
+---
 
 © 2026 Danyal Iqbal. All rights reserved.
